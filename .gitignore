@@ -1,0 +1,17 @@
+myenv/
+logs/
+*.log
+.ipynb_checkpoints/
+.vscode/
+.nbconfig/
+config.json
+secrets.env
+*.key
+*.pem
+
+#DATASET
+Circle_of_Willis/ 
+
+Testing/
+Training/
+temp_dicom_images
