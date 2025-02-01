@@ -8,10 +8,12 @@ config.json
 secrets.env
 *.key
 *.pem
-
 #DATASET
 Circle_of_Willis/ 
-
+*.keras
 Testing/
 Training/
 temp_dicom_images
+Classifier/brain_tumor_img.jpg
+Classifier/no_tumor_img.jpg
+Classifier/training_history.pkl
