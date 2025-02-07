@@ -17,3 +17,7 @@ temp_dicom_images
 Classifier/brain_tumor_img.jpg
 Classifier/no_tumor_img.jpg
 Classifier/training_history.pkl
+*.pth
+*.csv
+*.dcm
+Covid_Dataset/
