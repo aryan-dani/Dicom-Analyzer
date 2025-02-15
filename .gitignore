@@ -20,4 +20,5 @@ Classifier/training_history.pkl
 *.pth
 *.csv
 *.dcm
+*.pt
 Covid_Dataset/
