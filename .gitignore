@@ -1,24 +1,38 @@
+# Virtual Environment
 myenv/
+
+# Logs & Checkpoints
 logs/
 *.log
 .ipynb_checkpoints/
+
+# Editor & Config Files
 .vscode/
 .nbconfig/
 config.json
 secrets.env
+
+# Security & Keys
 *.key
 *.pem
-#DATASET
-Circle_of_Willis/ 
-*.keras
+
+# Datasets & Large Files
+Covid_Dataset/
+Circle_of_Willis/
 Testing/
 Training/
 temp_dicom_images
+
+# Model Files & Training Artifacts
+*.keras
+*.pth
+*.pt
+Classifier/training_history.pkl
+
+# Images & Data Samples
 Classifier/brain_tumor_img.jpg
 Classifier/no_tumor_img.jpg
-Classifier/training_history.pkl
-*.pth
+
+# CSV & DICOM Files
 *.csv
 *.dcm
-*.pt
-Covid_Dataset/
